@@ -1,8 +1,8 @@
 Source: mirai-cpp
-Version:
+Version: 0.1.1
 Homepage: 
-Description:
-Build-Depends:
+Description: mirai-cpp beta
+Build-Depends: curl, nlohmann-json, boost-asio
 Default-Features:
 
 Feature:
