@@ -1,7 +1,7 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/cyanray/mirai-cpp/archive/v0.3.0-alpha.zip"
-    FILENAME "mirai-cpp 0.3.0.zip"
-    SHA512 2591dc50dc856b7f104b2f4ce4c712e5f3f69a84a2597aa5914e312bf95db385f61bb314e645c9a131a3f46ba5189911fea5cf08828a3231dded9f4bb784f67a
+    URLS "https://github.com/cyanray/mirai-cpp/archive/v0.4.2.zip"
+    FILENAME "mirai-cpp 0.4.2.zip"
+    SHA512 72f45c1127b131ecff1070f45c660620709acf8c56f4a7019464d44a709ef72d43002f55c928f87031bf6b886bbab109bd0c93a2f53fc6e4f68b93de76ad5762
 )
 
 vcpkg_extract_source_archive_ex(
@@ -19,7 +19,7 @@ vcpkg_configure_cmake(
 
 vcpkg_install_cmake()
 
-file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include ${CURRENT_PACKAGES_DIR}/debug )
+file(REMOVE_RECURSE ${CURRENT_PACKAGES_DIR}/debug/include )
 
 # # Handle copyright
 file(INSTALL ${SOURCE_PATH}/LICENSE DESTINATION ${CURRENT_PACKAGES_DIR}/share/mirai-cpp RENAME copyright)
