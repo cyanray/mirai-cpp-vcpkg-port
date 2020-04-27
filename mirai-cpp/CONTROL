@@ -1,6 +1,6 @@
 Source: mirai-cpp
-Version: 0.4.3-alpha
+Version: 0.4.4-alpha
 Homepage: https://github.com/cyanray/mirai-cpp
-Description: mirai-cpp v0.4.3-alpha
+Description: mirai-cpp v0.4.4-alpha
 Build-Depends: curl, nlohmann-json, boost-asio
 Default-Features:
