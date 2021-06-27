@@ -1,7 +1,7 @@
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/cyanray/mirai-cpp/archive/v1.2.0.zip"
-    FILENAME "mirai-cpp 1.2.0.zip"
-    SHA512 f1b17db6cca6ea1be3dd6a50a683a7c797aad360e95d9ab05a5b0116f090296ce15a1b25e49001de6e35ce53de10e3eeb1fdbdd336264d45ebe44054abf6cd4b
+    URLS "https://github.com/cyanray/mirai-cpp/archive/v1.11.0.zip"
+    FILENAME "mirai-cpp 1.11.0.zip"
+    SHA512 a561276191eced1c870efa8d55dc039f4673393e55d309b6ba5d5c375a6881270be92fc81f3022dfae31883167070b876fcdd5267ca76e2303c58472d748de6e
 )
 
 vcpkg_extract_source_archive_ex(
