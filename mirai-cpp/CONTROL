@@ -1,6 +1,6 @@
 Source: mirai-cpp
-Version: 1.11.0
+Version: 2.0.2
 Homepage: https://github.com/cyanray/mirai-cpp
-Description: mirai-cpp v1.11.0
+Description: mirai-cpp v2.0.2
 Build-Depends: 
 Default-Features:
